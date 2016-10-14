@@ -52,3 +52,9 @@ Submit a pull request once you have pushed your code to GitHub. Ensure that the 
 * Official Android Developer Website - http://developer.android.com/training/index.html
 	* [Building a Simple User Interface](http://developer.android.com/training/basics/firstapp/building-ui.html)
 	* [Starting Another Activity](http://developer.android.com/training/basics/firstapp/starting-activity.html)
+
+---
+
+## Licensing
+1. All content is licensed under a CC­BY­NC­SA 4.0 license.
+2. All software code is licensed under GNU GPLv3. For commercial use or alternative licensing, please contact [legal@ga.co](mailto:legal@ga.co).
