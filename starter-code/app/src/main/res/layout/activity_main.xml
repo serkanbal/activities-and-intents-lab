@@ -7,9 +7,80 @@
     <ScrollView
         android:layout_width="match_parent"
         android:layout_height="match_parent">
-        <LinearLayout android:layout_width="match_parent"
+        <LinearLayout
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Welcome to MAD LIBS!"
+                android:textSize="30sp"
+                android:textStyle="bold"
+                android:textColor="#ff0000"
+                android:id="@+id/textView"
+                android:layout_gravity="center"/>
+
+            <EditText
+                android:layout_marginTop="20dp"
+                android:id="@+id/adjective1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:hint="Enter an Adjective"
+                android:textSize="25sp"
+                android:textColorHint="#0037ff"
+                />
+
+            <EditText
+                android:id="@+id/adjective2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:hint="Enter another Adjective"
+                android:textSize="25sp"
+                android:textColorHint="#0037ff" />
+
+            <EditText
+                android:id="@+id/noun1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:hint="Enter a Noun"
+                android:textSize="25sp"
+                android:textColorHint="#08b916"
+                />
+
+            <EditText
+                android:id="@+id/noun2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:hint="Enter Another Noun"
+                android:textSize="25sp"
+                android:textColorHint="#08b916" />
+
+            <EditText
+                android:id="@+id/animals"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:hint="Enter Animals name in Plural"
+                android:textSize="25sp"
+                android:textColorHint="#5e0fa9"/>
+
+            <EditText
+                android:id="@+id/game"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:hint="Enter a Game Name"
+                android:textSize="25sp"
+                android:textColorHint="#b3b605"
+                />
+
+            <Button
+                android:id="@+id/buttonsurprise"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="SURPRISE ME"
+                android:layout_gravity="center"
+                android:layout_marginTop="30dp"/>
 
         </LinearLayout>
     </ScrollView>
