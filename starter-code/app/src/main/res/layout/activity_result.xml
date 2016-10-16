@@ -11,13 +11,15 @@
             android:paddingStart="@dimen/activity_horizontal_margin"
             android:paddingRight="@dimen/activity_horizontal_margin"
             android:paddingEnd="@dimen/activity_horizontal_margin"
-            android:orientation="vertical">
+            android:orientation="vertical"
+            >
 
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:textAppearance="?android:attr/textAppearanceLarge"
                 android:text="Hello world!"
+                android:textStyle="normal"
                 android:id="@+id/result_textview"
                 android:layout_marginTop="16dp" />
 
@@ -26,7 +28,9 @@
                 android:layout_height="wrap_content"
                 android:text="Go Back"
                 android:id="@+id/back_button"
-                android:layout_gravity="right" />
+                android:layout_gravity="center"
+                android:layout_marginTop="40dp"
+                />
         </LinearLayout>
     </ScrollView>
 </FrameLayout>

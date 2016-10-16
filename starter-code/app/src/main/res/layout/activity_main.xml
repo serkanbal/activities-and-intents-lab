@@ -17,7 +17,7 @@
                 android:layout_height="wrap_content"
                 android:text="Welcome to MAD LIBS!"
                 android:textSize="30sp"
-                android:textStyle="bold"
+                android:textStyle="italic"
                 android:textColor="#ff0000"
                 android:id="@+id/textView"
                 android:layout_gravity="center"/>
